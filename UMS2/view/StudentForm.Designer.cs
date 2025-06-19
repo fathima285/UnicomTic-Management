@@ -115,6 +115,7 @@
             this.pbback.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbback.TabIndex = 39;
             this.pbback.TabStop = false;
+            this.pbback.Click += new System.EventHandler(this.pbback_Click);
             // 
             // label3
             // 
@@ -135,6 +136,7 @@
             this.btnadd.TabIndex = 37;
             this.btnadd.Text = "Add";
             this.btnadd.UseVisualStyleBackColor = true;
+            this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
             // btnedit
             // 
@@ -145,6 +147,7 @@
             this.btnedit.TabIndex = 36;
             this.btnedit.Text = "Edit";
             this.btnedit.UseVisualStyleBackColor = true;
+            this.btnedit.Click += new System.EventHandler(this.btnedit_Click);
             // 
             // txtnic
             // 
@@ -197,6 +200,7 @@
             this.dgvstudent.RowTemplate.Height = 28;
             this.dgvstudent.Size = new System.Drawing.Size(469, 185);
             this.dgvstudent.TabIndex = 31;
+            this.dgvstudent.SelectionChanged += new System.EventHandler(this.dgvstudent_SelectionChanged);
             // 
             // btndelete
             // 
@@ -207,6 +211,7 @@
             this.btndelete.TabIndex = 30;
             this.btndelete.Text = "Delete";
             this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // StudentForm
             // 
@@ -231,6 +236,7 @@
             this.Controls.Add(this.btndelete);
             this.Name = "StudentForm";
             this.Text = "StudentForm";
+            this.Load += new System.EventHandler(this.StudentForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbback)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvstudent)).EndInit();
             this.ResumeLayout(false);

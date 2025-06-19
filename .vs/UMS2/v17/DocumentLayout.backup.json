@@ -1,129 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\",
+  "WorkspaceRootPath": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\fathi\\unicomtic-management\\ums2\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\fathi\\unicomtic-management\\ums2\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\view\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\view\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\fathi\\unicomtic-management\\ums2\\controller\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\controller\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\view\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\view\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\view\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\controller\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\controller\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\controller\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\controller\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\controller\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\controller\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\data\\tablemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\data\\tablemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\fathi\\unicomtic-management\\ums2\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\fathi\\unicomtic-management\\ums2\\controller\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\controller\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\data\\tablemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\data\\tablemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\lecturersubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\lecturersubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\view\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\classtimetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\classtimetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|c:\\users\\sathi\\onedrive\\desktop\\ums\\ums2\\ums2\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\ums2\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16C7791-1B7F-4471-BEA7-721B6469C9CB}|UMS2\\UMS2.csproj|solutionrelative:ums2\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -139,296 +87,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\StudentForm.cs",
-              "RelativeDocumentMoniker": "UMS2\\view\\StudentForm.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\StudentForm.cs [Design]",
-              "RelativeToolTip": "UMS2\\view\\StudentForm.cs [Design]",
+              "Title": "SubjectForm.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\SubjectForm.cs",
+              "RelativeDocumentMoniker": "UMS2\\view\\SubjectForm.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\SubjectForm.cs",
+              "RelativeToolTip": "UMS2\\view\\SubjectForm.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAtwLUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:21:03.352Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminDashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\AdminDashboardForm.cs",
-              "RelativeDocumentMoniker": "UMS2\\view\\AdminDashboardForm.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\AdminDashboardForm.cs",
-              "RelativeToolTip": "UMS2\\view\\AdminDashboardForm.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAD0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T06:52:27.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminDashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\AdminDashboardForm.cs",
-              "RelativeDocumentMoniker": "UMS2\\view\\AdminDashboardForm.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\AdminDashboardForm.cs [Design]",
-              "RelativeToolTip": "UMS2\\view\\AdminDashboardForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T06:48:07.993Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminForm.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\AdminForm.cs",
-              "RelativeDocumentMoniker": "UMS2\\view\\AdminForm.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\AdminForm.cs",
-              "RelativeToolTip": "UMS2\\view\\AdminForm.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAAAFwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T06:30:18.366Z",
+              "WhenOpened": "2025-06-19T15:04:34.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AdminForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\AdminForm.cs",
-              "RelativeDocumentMoniker": "UMS2\\view\\AdminForm.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\AdminForm.cs [Design]",
-              "RelativeToolTip": "UMS2\\view\\AdminForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T06:27:35.216Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LecturerForm.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\LecturerForm.cs",
-              "RelativeDocumentMoniker": "UMS2\\view\\LecturerForm.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\LecturerForm.cs",
-              "RelativeToolTip": "UMS2\\view\\LecturerForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T03:33:48.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LecturerForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\LecturerForm.cs",
-              "RelativeDocumentMoniker": "UMS2\\view\\LecturerForm.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\LecturerForm.cs [Design]",
-              "RelativeToolTip": "UMS2\\view\\LecturerForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T03:32:13.905Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\UserController.cs",
-              "RelativeDocumentMoniker": "UMS2\\Controller\\UserController.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\UserController.cs",
-              "RelativeToolTip": "UMS2\\Controller\\UserController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T03:13:10.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\StudentController.cs",
-              "RelativeDocumentMoniker": "UMS2\\Controller\\StudentController.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\StudentController.cs",
-              "RelativeToolTip": "UMS2\\Controller\\StudentController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAOQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T03:12:19.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\AdminController.cs",
-              "RelativeDocumentMoniker": "UMS2\\Controller\\AdminController.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\AdminController.cs",
-              "RelativeToolTip": "UMS2\\Controller\\AdminController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T03:12:04.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LecturerController.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\LecturerController.cs",
-              "RelativeDocumentMoniker": "UMS2\\Controller\\LecturerController.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\LecturerController.cs",
-              "RelativeToolTip": "UMS2\\Controller\\LecturerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:55:03.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "Subject.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Subject.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Model\\Subject.cs",
               "RelativeDocumentMoniker": "UMS2\\Model\\Subject.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Subject.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Model\\Subject.cs",
               "RelativeToolTip": "UMS2\\Model\\Subject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:53:14.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\User.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\User.cs",
-              "RelativeToolTip": "UMS2\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:52:39.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Student.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\Student.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Student.cs",
-              "RelativeToolTip": "UMS2\\Model\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:52:19.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Room.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\Room.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Room.cs",
-              "RelativeToolTip": "UMS2\\Model\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:51:33.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Mark.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Mark.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\Mark.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Mark.cs",
-              "RelativeToolTip": "UMS2\\Model\\Mark.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:51:19.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LecturerSubject.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\LecturerSubject.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\LecturerSubject.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\LecturerSubject.cs",
-              "RelativeToolTip": "UMS2\\Model\\LecturerSubject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:50:51.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Lecturer.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Lecturer.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\Lecturer.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Lecturer.cs",
-              "RelativeToolTip": "UMS2\\Model\\Lecturer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:50:22.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Exam.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Exam.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\Exam.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Exam.cs",
-              "RelativeToolTip": "UMS2\\Model\\Exam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:49:43.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Admin.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\Admin.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Admin.cs",
-              "RelativeToolTip": "UMS2\\Model\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:49:28.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ClassTimetable.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\ClassTimetable.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\ClassTimetable.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\ClassTimetable.cs",
-              "RelativeToolTip": "UMS2\\Model\\ClassTimetable.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:47:47.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Attendence.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Attendence.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\Attendence.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Attendence.cs",
-              "RelativeToolTip": "UMS2\\Model\\Attendence.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T02:47:11.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Program.cs",
-              "RelativeDocumentMoniker": "UMS2\\Program.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Program.cs",
-              "RelativeToolTip": "UMS2\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T00:46:14.823Z",
+              "WhenOpened": "2025-06-19T13:35:06.118Z",
               "EditorCaption": ""
             },
             {
@@ -441,105 +120,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CourseForm.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\CourseForm.cs",
-              "RelativeDocumentMoniker": "UMS2\\view\\CourseForm.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\CourseForm.cs",
-              "RelativeToolTip": "UMS2\\view\\CourseForm.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowG8AAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Controller\\SubjectController.cs",
+              "RelativeDocumentMoniker": "UMS2\\Controller\\SubjectController.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Controller\\SubjectController.cs",
+              "RelativeToolTip": "UMS2\\Controller\\SubjectController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAHkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T00:40:24.923Z",
+              "WhenOpened": "2025-06-19T13:41:21.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Form1.cs",
-              "RelativeDocumentMoniker": "UMS2\\Form1.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Form1.cs",
-              "RelativeToolTip": "UMS2\\Form1.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Controller\\LecturerController.cs",
+              "RelativeDocumentMoniker": "UMS2\\Controller\\LecturerController.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Controller\\LecturerController.cs",
+              "RelativeToolTip": "UMS2\\Controller\\LecturerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T00:36:31.504Z",
+              "WhenOpened": "2025-06-19T13:38:41.9Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CourseForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\CourseForm.cs",
-              "RelativeDocumentMoniker": "UMS2\\view\\CourseForm.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\CourseForm.cs [Design]",
-              "RelativeToolTip": "UMS2\\view\\CourseForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T23:56:41.584Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TableManagement.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Data\\TableManagement.cs",
-              "RelativeDocumentMoniker": "UMS2\\Data\\TableManagement.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Data\\TableManagement.cs",
-              "RelativeToolTip": "UMS2\\Data\\TableManagement.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAAAKkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T23:55:53.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DatabaseConnection.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Data\\DatabaseConnection.cs",
-              "RelativeDocumentMoniker": "UMS2\\Data\\DatabaseConnection.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Data\\DatabaseConnection.cs",
-              "RelativeToolTip": "UMS2\\Data\\DatabaseConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T23:55:33.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\CourseController.cs",
-              "RelativeDocumentMoniker": "UMS2\\Controller\\CourseController.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Controller\\CourseController.cs",
-              "RelativeToolTip": "UMS2\\Controller\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T23:53:37.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Course.cs",
-              "RelativeDocumentMoniker": "UMS2\\Model\\Course.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Model\\Course.cs",
-              "RelativeToolTip": "UMS2\\Model\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T23:51:51.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Form1.cs",
-              "RelativeDocumentMoniker": "UMS2\\Form1.cs",
-              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Form1.cs [Design]",
-              "RelativeToolTip": "UMS2\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T23:50:39.663Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
@@ -548,6 +151,178 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "UMS2\\view\\AdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\AdminDashboardForm.cs",
+              "RelativeToolTip": "UMS2\\view\\AdminDashboardForm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:11:46.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "UMS2\\view\\AdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\AdminDashboardForm.cs [Design]",
+              "RelativeToolTip": "UMS2\\view\\AdminDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:11:41.875Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\StudentForm.cs",
+              "RelativeDocumentMoniker": "UMS2\\view\\StudentForm.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\StudentForm.cs",
+              "RelativeToolTip": "UMS2\\view\\StudentForm.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAKoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:02:41.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\StudentForm.cs",
+              "RelativeDocumentMoniker": "UMS2\\view\\StudentForm.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\StudentForm.cs [Design]",
+              "RelativeToolTip": "UMS2\\view\\StudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:02:28.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Program.cs",
+              "RelativeDocumentMoniker": "UMS2\\Program.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Program.cs",
+              "RelativeToolTip": "UMS2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T00:46:14.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseForm.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\CourseForm.cs",
+              "RelativeDocumentMoniker": "UMS2\\view\\CourseForm.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\CourseForm.cs",
+              "RelativeToolTip": "UMS2\\view\\CourseForm.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowG8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T00:40:24.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Form1.cs",
+              "RelativeDocumentMoniker": "UMS2\\Form1.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Form1.cs",
+              "RelativeToolTip": "UMS2\\Form1.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T00:36:31.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CourseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\CourseForm.cs",
+              "RelativeDocumentMoniker": "UMS2\\view\\CourseForm.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\view\\CourseForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\ums\\UMS2\\UMS2\\view\\CourseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:56:41.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TableManagement.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Data\\TableManagement.cs",
+              "RelativeDocumentMoniker": "UMS2\\Data\\TableManagement.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Data\\TableManagement.cs",
+              "RelativeToolTip": "UMS2\\Data\\TableManagement.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAD4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:55:53.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubjectForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\SubjectForm.cs",
+              "RelativeDocumentMoniker": "UMS2\\view\\SubjectForm.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\view\\SubjectForm.cs [Design]",
+              "RelativeToolTip": "UMS2\\view\\SubjectForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T15:10:41.186Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "UMS2\\Data\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "UMS2\\Data\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:55:33.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Controller\\CourseController.cs",
+              "RelativeDocumentMoniker": "UMS2\\Controller\\CourseController.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Controller\\CourseController.cs",
+              "RelativeToolTip": "UMS2\\Controller\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:53:37.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Model\\Course.cs",
+              "RelativeDocumentMoniker": "UMS2\\Model\\Course.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Model\\Course.cs",
+              "RelativeToolTip": "UMS2\\Model\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:51:51.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sathi\\OneDrive\\Desktop\\fathi\\UnicomTic-Management\\UMS2\\Form1.cs",
+              "RelativeDocumentMoniker": "UMS2\\Form1.cs",
+              "ToolTip": "C:\\Users\\sathi\\OneDrive\\Desktop\\ums\\UMS2\\UMS2\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\ums\\UMS2\\UMS2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:50:39.663Z"
             }
           ]
         }

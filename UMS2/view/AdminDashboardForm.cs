@@ -54,11 +54,13 @@ namespace UMS2.view
 
         private void btn_subject_Click(object sender, EventArgs e)
         {
+            LoadFormIntoPanel(new SubjectForm());
 
         }
 
         private void btn_student_Click(object sender, EventArgs e)
         {
+            LoadFormIntoPanel(new StudentForm());
            
         }
 
