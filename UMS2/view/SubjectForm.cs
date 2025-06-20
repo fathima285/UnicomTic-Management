@@ -14,62 +14,59 @@ namespace UMS2.view
 {
     public partial class SubjectForm : Form
     {
-        int selectedSubjectId = -1;
+        private int selectedSubjectId = -1;
         public SubjectForm()
         {
             InitializeComponent();
             this.Load += SubjectForm_Load;
+            dgvsubject.SelectionChanged += dgvsubject_SelectionChanged;
+
+            btnadd.Click += btnadd_Click;
+            btnedit.Click += btnedit_Click;
+            btndelete.Click += btndelete_Click;
         }
 
         private void LoadCourses()
         {
-            CourseController courseController = new CourseController();
+            var courseController = new CourseController();
             cobcourse.DataSource = courseController.GetCourseList();
             cobcourse.DisplayMember = "Name";
             cobcourse.ValueMember = "Id";
             cobcourse.SelectedIndex = -1;
         }
 
-        private void LoadLecturers()
-        {
-            LecturerController lecturerController = new LecturerController();
-            coblecturer.DataSource = lecturerController.GetLecturerList();
-            coblecturer.DisplayMember = "Name";
-            coblecturer.ValueMember = "Id";
-            coblecturer.SelectedIndex = -1;
-
-        }
+       
 
         private void LoadSubjects()
         {
-            SubjectController subjectController = new SubjectController();
+            var subjectController = new SubjectController();
             dgvsubject.DataSource = subjectController.GetSubjectList();
-            dgvsubject.Columns["Id"].Visible = false;
 
-            this.BeginInvoke(new Action(() =>
-            {
-                dgvsubject.ClearSelection();
-                dgvsubject.CurrentCell = null;
-                selectedSubjectId = -1;
-                ClearFields();
-            }));
+            // Hide Id and foreign keys if present
+            if (dgvsubject.Columns["Id"] != null)
+                dgvsubject.Columns["Id"].Visible = false;
+            if (dgvsubject.Columns["CourseId"] != null)
+                dgvsubject.Columns["CourseId"].Visible = false;
+            if (dgvsubject.Columns["LecturerId"] != null)
+                dgvsubject.Columns["LecturerId"].Visible = false;
 
+            ClearFields();
+            selectedSubjectId = -1;
         }
 
         private void ClearFields()
         {
             txtsubname.Clear();
             cobcourse.SelectedIndex = -1;
-            coblecturer.SelectedIndex = -1;
-
+           
         }
 
-        private void txtsubname_TextChanged(object sender, EventArgs e)
+        private void cobcourse_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void cobcourse_SelectedIndexChanged(object sender, EventArgs e)
+        private void txtsubname_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -79,111 +76,94 @@ namespace UMS2.view
 
         }
 
-        private void btndelete_Click(object sender, EventArgs e)
-        {
-            if (selectedSubjectId == -1)
-            {
-                MessageBox.Show("Please select a Subject to delete.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            var result = MessageBox.Show("Are you sure you want to delete this Subject?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if (result == DialogResult.Yes)
-            {
-                try
-                {
-                    SubjectController controller = new SubjectController();
-                    controller.DeleteSubject(selectedSubjectId);
-                    LoadSubjects();
-                    ClearFields();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error deleting subject: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-
-        }
-
-        private void btnadd_Click(object sender, EventArgs e)
-        {
-
-            if (string.IsNullOrWhiteSpace(txtsubname.Text) ||
-                cobcourse.SelectedIndex == -1 || coblecturer.SelectedIndex == -1)
-            {
-                MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK);
-                return;
-            }
-
-            Subject subject = new Subject
-            {
-                Name = txtsubname.Text,
-                CourseId = Convert.ToInt32(cobcourse.SelectedValue),
-                LecturerId = Convert.ToInt32(coblecturer.SelectedValue),
-                CourseName = cobcourse.Text,
-                LecturerName = coblecturer.Text
-            };
-
-            SubjectController controller = new SubjectController();
-            try
-            {
-                controller.AddSubject(subject);
-                LoadSubjects();
-                ClearFields();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error adding subject: {ex.Message}", "Error", MessageBoxButtons.OK);
-            }
-
-        }
-
-        private void btnedit_Click(object sender, EventArgs e)
-        {
-            if (selectedSubjectId == -1)
-            {
-                MessageBox.Show("Please select a Subject to Edit.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            Subject subject = new Subject
-            {
-                Name = txtsubname.Text,
-                CourseId = Convert.ToInt32(cobcourse.SelectedValue),
-                LecturerId = Convert.ToInt32(coblecturer.SelectedValue),
-            };
-
-            SubjectController controller = new SubjectController();
-            controller.DeleteSubject(selectedSubjectId); // simple update method via delete+add
-            controller.AddSubject(subject);
-            LoadSubjects();
-            ClearFields();
-        }
-
         private void dgvsubject_SelectionChanged(object sender, EventArgs e)
         {
             if (dgvsubject.SelectedRows.Count > 0)
             {
                 var row = dgvsubject.SelectedRows[0];
-                selectedSubjectId = Convert.ToInt32(row.Cells["Id"].Value);
-                txtsubname.Text = row.Cells["Name"].Value.ToString();
-                cobcourse.Text = row.Cells["CourseName"].Value.ToString();
-                coblecturer.Text = row.Cells["LecturerName"].Value.ToString();
+                if (row.Cells["Id"].Value != null)
+                {
+                    selectedSubjectId = Convert.ToInt32(row.Cells["Id"].Value);
+                    txtsubname.Text = row.Cells["Name"].Value?.ToString();
+                    cobcourse.SelectedValue = row.Cells["CourseId"].Value;
+                    
+                }
             }
             else
             {
                 ClearFields();
                 selectedSubjectId = -1;
             }
+
         }
+
+        private void btnadd_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtsubname.Text) || cobcourse.SelectedIndex == -1 )
+            {
+                MessageBox.Show("Please fill all fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var subject = new Subject
+            {
+                Name = txtsubname.Text.Trim(),
+                CourseId = Convert.ToInt32(cobcourse.SelectedValue),
+               
+            };
+
+            var controller = new SubjectController();
+            controller.AddSubject(subject);
+
+            LoadSubjects();
+        }
+
+        private void btnedit_Click(object sender, EventArgs e)
+        {
+            if (selectedSubjectId == -1)
+            {
+                MessageBox.Show("Please select a subject to edit.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var subject = new Subject
+            {
+                Id = selectedSubjectId,
+                Name = txtsubname.Text.Trim(),
+                CourseId = Convert.ToInt32(cobcourse.SelectedValue),
+              
+            };
+
+            var controller = new SubjectController();
+            controller.UpdateSubject(subject);
+
+            LoadSubjects();
+        }
+
+        private void btndelete_Click(object sender, EventArgs e)
+        {
+            if (selectedSubjectId == -1)
+            {
+                MessageBox.Show("Please select a subject to delete.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var confirm = MessageBox.Show("Are you sure to delete this subject?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirm == DialogResult.Yes)
+            {
+                var controller = new SubjectController();
+                controller.DeleteSubject(selectedSubjectId);
+                LoadSubjects();
+            }
+        }
+    
+
 
         private void SubjectForm_Load(object sender, EventArgs e)
         {
-
             LoadCourses();
-            LoadLecturers();
+            
             LoadSubjects();
-
         }
     }
 }

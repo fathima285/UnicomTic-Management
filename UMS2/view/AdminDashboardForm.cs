@@ -66,15 +66,22 @@ namespace UMS2.view
 
         private void btn_class_Click(object sender, EventArgs e)
         {
-
+            LoadFormIntoPanel(new ClassTimetableForm());
         }
 
         private void btn_exam_Click(object sender, EventArgs e)
         {
+            LoadFormIntoPanel(new ExamForm());
 
         }
 
         private void btn_marks_Click(object sender, EventArgs e)
+        {
+            LoadFormIntoPanel(new MarkForm());
+
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
 
         }

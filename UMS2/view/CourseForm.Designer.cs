@@ -133,6 +133,7 @@
             this.Controls.Add(this.btndelete);
             this.Name = "CourseForm";
             this.Text = "CourseForm";
+            this.Load += new System.EventHandler(this.CourseForm_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvcourse)).EndInit();
             this.ResumeLayout(false);

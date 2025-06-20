@@ -56,7 +56,7 @@ namespace UMS2.Data
                             Name VARCHAR(25) NOT NULL UNIQUE,
                             CourseId INTEGER NOT NULL,
                             FOREIGN KEY(CourseId) REFERENCES Courses(Id)
-                        );";
+                         );";
                 using (SQLiteCommand cmd = new SQLiteCommand(subjectTable, conn))
                 {
                     cmd.ExecuteNonQuery();

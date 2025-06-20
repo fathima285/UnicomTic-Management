@@ -39,6 +39,7 @@
             this.btn_lecturer = new System.Windows.Forms.Button();
             this.btn_course = new System.Windows.Forms.Button();
             this.pnl_up = new System.Windows.Forms.Panel();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.pnl_select.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,9 +104,9 @@
             this.btn_class.Location = new System.Drawing.Point(22, 295);
             this.btn_class.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_class.Name = "btn_class";
-            this.btn_class.Size = new System.Drawing.Size(178, 30);
+            this.btn_class.Size = new System.Drawing.Size(178, 40);
             this.btn_class.TabIndex = 4;
-            this.btn_class.Text = "Class Management";
+            this.btn_class.Text = "Class Timetable Management";
             this.btn_class.UseVisualStyleBackColor = false;
             this.btn_class.Click += new System.EventHandler(this.btn_class_Click);
             // 
@@ -168,6 +169,10 @@
             this.pnl_up.TabIndex = 4;
             this.pnl_up.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_up_Paint);
             // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
             // AdminDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -195,5 +200,6 @@
         private System.Windows.Forms.Button btn_lecturer;
         private System.Windows.Forms.Button btn_course;
         private System.Windows.Forms.Panel pnl_up;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

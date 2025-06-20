@@ -36,3 +36,6 @@ C:\Users\sathi\OneDrive\Desktop\fathi\UnicomTic-Management\UMS2\obj\Debug\UMS2.c
 C:\Users\sathi\OneDrive\Desktop\fathi\UnicomTic-Management\UMS2\obj\Debug\UMS2.exe
 C:\Users\sathi\OneDrive\Desktop\fathi\UnicomTic-Management\UMS2\obj\Debug\UMS2.pdb
 C:\Users\sathi\OneDrive\Desktop\fathi\UnicomTic-Management\UMS2\obj\Debug\UMS2.view.SubjectForm.resources
+C:\Users\sathi\OneDrive\Desktop\fathi\UnicomTic-Management\UMS2\obj\Debug\UMS2.view.MarkForm.resources
+C:\Users\sathi\OneDrive\Desktop\fathi\UnicomTic-Management\UMS2\obj\Debug\UMS2.view.ExamForm.resources
+C:\Users\sathi\OneDrive\Desktop\fathi\UnicomTic-Management\UMS2\obj\Debug\UMS2.view.ClassTimetableForm.resources

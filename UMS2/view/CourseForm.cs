@@ -111,5 +111,10 @@ namespace UMS2.view
                 }
             }
         }
+
+        private void CourseForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

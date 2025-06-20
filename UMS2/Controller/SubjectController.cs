@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using UMS2.Data;
 using UMS2.Model;
@@ -23,16 +20,16 @@ namespace UMS2.Controller
                     {
                         cmd.Parameters.AddWithValue("@name", subject.Name);
                         cmd.Parameters.AddWithValue("@courseId", subject.CourseId);
+                    
                         cmd.ExecuteNonQuery();
                     }
-
                     MessageBox.Show("Subject added successfully.");
                 }
                 catch (SQLiteException ex)
                 {
                     if (ex.ResultCode == SQLiteErrorCode.Constraint)
                     {
-                        MessageBox.Show("Subject already exists or course reference issue.");
+                        MessageBox.Show("Subject already exists or invalid course/lecturer reference.");
                     }
                     else
                     {
@@ -46,78 +43,74 @@ namespace UMS2.Controller
             }
         }
 
+        public void UpdateSubject(Subject subject)
+        {
+            using (var conn = DatabaseConnection.GetConnection())
+            {
+                string query = @"UPDATE Subjects SET Name=@name, CourseId=@courseId";
+                using (var cmd = new SQLiteCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@name", subject.Name);
+                    cmd.Parameters.AddWithValue("@courseId", subject.CourseId);
+       
+                    cmd.Parameters.AddWithValue("@id", subject.Id);
+                    int rows = cmd.ExecuteNonQuery();
+                    if (rows == 0)
+                        MessageBox.Show("Update failed: Subject not found.");
+                    else
+                        MessageBox.Show("Subject updated successfully.");
+                }
+            }
+        }
+
         public void DeleteSubject(int subjectId)
         {
             using (var conn = DatabaseConnection.GetConnection())
             {
-                var cmd = new SQLiteCommand("DELETE FROM Subjects WHERE Id = @Id", conn);
-                cmd.Parameters.AddWithValue("@Id", subjectId);
-                cmd.ExecuteNonQuery();
-            }
-        }
-
-        public Subject GetSubjectById(int id)
-        {
-            using (var conn = DatabaseConnection.GetConnection())
-            {
-                string query = @"
-                    SELECT s.Id, s.Name, s.CourseId, c.Name AS CourseName 
-                    FROM Subjects s 
-                    LEFT JOIN Courses c ON s.CourseId = c.Id 
-                    WHERE s.Id = @Id";
-
+                string query = "DELETE FROM Subjects WHERE Id = @id";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@Id", id);
-                    using (var reader = cmd.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            return new Subject
-                            {
-                                Id = reader.GetInt32(0),
-                                Name = reader.GetString(1),
-                                CourseId = reader.GetInt32(2),
-                                CourseName = reader.GetString(3)
-                            };
-                        }
-                    }
+                    cmd.Parameters.AddWithValue("@id", subjectId);
+                    int rows = cmd.ExecuteNonQuery();
+                    if (rows == 0)
+                        MessageBox.Show("Delete failed: Subject not found.");
+                    else
+                        MessageBox.Show("Subject deleted successfully.");
                 }
             }
-
-            return null;
         }
 
         public List<Subject> GetSubjectList()
         {
-            var subjects = new List<Subject>();
-
+            var list = new List<Subject>();
             using (var conn = DatabaseConnection.GetConnection())
             {
                 string query = @"
-                    SELECT s.Id, s.Name, s.CourseId, c.Name AS CourseName 
-                    FROM Subjects s 
-                    LEFT JOIN Courses c ON s.CourseId = c.Id";
+                    SELECT s.Id, s.Name, s.CourseId,
+                           c.Name AS CourseName
+                    FROM Subjects s
+                    LEFT JOIN Courses c ON s.CourseId = c.Id
+                    
+                    ORDER BY s.Name ASC";
 
                 using (var cmd = new SQLiteCommand(query, conn))
                 using (var reader = cmd.ExecuteReader())
                 {
                     while (reader.Read())
                     {
-                        subjects.Add(new Subject
+                        list.Add(new Subject
                         {
                             Id = reader.GetInt32(0),
                             Name = reader.GetString(1),
                             CourseId = reader.GetInt32(2),
-                            CourseName = reader.GetString(3)
+                           
+                            CourseName = reader["CourseName"]?.ToString(),
+                           
                         });
                     }
                 }
             }
-
-            return subjects;
+            return list;
         }
     }
 }
-    
-

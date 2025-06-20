@@ -52,8 +52,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\AdminController.cs" />
+    <Compile Include="Controller\ClassTimetableController.cs" />
     <Compile Include="Controller\CourseController.cs" />
+    <Compile Include="Controller\ExamController.cs" />
     <Compile Include="Controller\LecturerController.cs" />
+    <Compile Include="Controller\MarkController.cs" />
     <Compile Include="Controller\StudentController.cs" />
     <Compile Include="Controller\SubjectController.cs" />
     <Compile Include="Controller\UserController.cs" />
@@ -91,17 +94,35 @@
     <Compile Include="view\AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\ClassTimetableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ClassTimetableForm.Designer.cs">
+      <DependentUpon>ClassTimetableForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\CourseForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\CourseForm.Designer.cs">
       <DependentUpon>CourseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\ExamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ExamForm.Designer.cs">
+      <DependentUpon>ExamForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\LecturerForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\LecturerForm.Designer.cs">
       <DependentUpon>LecturerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\MarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\MarkForm.Designer.cs">
+      <DependentUpon>MarkForm.cs</DependentUpon>
     </Compile>
     <Compile Include="view\StudentForm.cs">
       <SubType>Form</SubType>
@@ -133,11 +154,20 @@
     <EmbeddedResource Include="view\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\ClassTimetableForm.resx">
+      <DependentUpon>ClassTimetableForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\CourseForm.resx">
       <DependentUpon>CourseForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\ExamForm.resx">
+      <DependentUpon>ExamForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\LecturerForm.resx">
       <DependentUpon>LecturerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\MarkForm.resx">
+      <DependentUpon>MarkForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
