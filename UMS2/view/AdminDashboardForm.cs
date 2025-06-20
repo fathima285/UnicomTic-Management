@@ -85,5 +85,10 @@ namespace UMS2.view
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LoadFormIntoPanel(new AttendenceForm());
+        }
     }
 }

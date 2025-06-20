@@ -40,6 +40,7 @@
             this.btn_course = new System.Windows.Forms.Button();
             this.pnl_up = new System.Windows.Forms.Panel();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.button1 = new System.Windows.Forms.Button();
             this.pnl_select.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +60,7 @@
             // pnl_select
             // 
             this.pnl_select.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.pnl_select.Controls.Add(this.button1);
             this.pnl_select.Controls.Add(this.btn_marks);
             this.pnl_select.Controls.Add(this.btn_exam);
             this.pnl_select.Controls.Add(this.btn_class);
@@ -173,6 +175,17 @@
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button1.Location = new System.Drawing.Point(22, 417);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(178, 40);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Attendence";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // AdminDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -201,5 +214,6 @@
         private System.Windows.Forms.Button btn_course;
         private System.Windows.Forms.Panel pnl_up;
         private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.Button button1;
     }
 }
