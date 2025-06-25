@@ -89,20 +89,17 @@ namespace UMS2.Data
                 {
                     cmd.ExecuteNonQuery();
                 }
-                string userTable = @"
-                CREATE TABLE IF NOT EXISTS Users(
-                    Id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    UserName TEXT NOT NULL UNIQUE,
-                    Password TEXT NOT NULL,
-                    LinkedId INTEGER,
-                    Role TEXT NOT NULL,
-                    UNIQUE(LinkedId, Role)
 
-                );";
-                using (SQLiteCommand cmd = new SQLiteCommand(userTable, conn))
+                string insertAdmin = @"
+INSERT OR IGNORE INTO Users (UserName, Password, LinkedId, Role)
+VALUES ('admin', 'admin123', NULL, 'Admin');";
+
+                using (SQLiteCommand cmd = new SQLiteCommand(insertAdmin, conn))
                 {
                     cmd.ExecuteNonQuery();
                 }
+
+
                 string examTable = @"
                 CREATE TABLE IF NOT EXISTS Exams(
                     Id INTEGER PRIMARY KEY AUTOINCREMENT,
