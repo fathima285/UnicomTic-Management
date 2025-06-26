@@ -129,24 +129,28 @@
             // 
             // btnadd
             // 
-            this.btnadd.Location = new System.Drawing.Point(481, 363);
+            this.btnadd.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnadd.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnadd.Location = new System.Drawing.Point(481, 353);
             this.btnadd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnadd.Name = "btnadd";
-            this.btnadd.Size = new System.Drawing.Size(67, 23);
+            this.btnadd.Size = new System.Drawing.Size(67, 33);
             this.btnadd.TabIndex = 37;
             this.btnadd.Text = "Add";
-            this.btnadd.UseVisualStyleBackColor = true;
+            this.btnadd.UseVisualStyleBackColor = false;
             this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
             // btnedit
             // 
-            this.btnedit.Location = new System.Drawing.Point(600, 363);
+            this.btnedit.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnedit.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnedit.Location = new System.Drawing.Point(600, 353);
             this.btnedit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnedit.Name = "btnedit";
-            this.btnedit.Size = new System.Drawing.Size(67, 23);
+            this.btnedit.Size = new System.Drawing.Size(67, 33);
             this.btnedit.TabIndex = 36;
             this.btnedit.Text = "Edit";
-            this.btnedit.UseVisualStyleBackColor = true;
+            this.btnedit.UseVisualStyleBackColor = false;
             this.btnedit.Click += new System.EventHandler(this.btnedit_Click);
             // 
             // txtnic
@@ -204,20 +208,22 @@
             // 
             // btndelete
             // 
-            this.btndelete.Location = new System.Drawing.Point(372, 363);
+            this.btndelete.BackColor = System.Drawing.Color.Red;
+            this.btndelete.ForeColor = System.Drawing.SystemColors.Control;
+            this.btndelete.Location = new System.Drawing.Point(372, 353);
             this.btndelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(67, 23);
+            this.btndelete.Size = new System.Drawing.Size(67, 33);
             this.btndelete.TabIndex = 30;
             this.btndelete.Text = "Delete";
-            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.UseVisualStyleBackColor = false;
             this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // StudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(936, 653);
             this.Controls.Add(this.cobcourse);
             this.Controls.Add(this.label6);

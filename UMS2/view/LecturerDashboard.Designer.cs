@@ -40,85 +40,108 @@
             // 
             // btnViewTimetable
             // 
-            this.btnViewTimetable.Location = new System.Drawing.Point(141, 109);
+            this.btnViewTimetable.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnViewTimetable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewTimetable.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnViewTimetable.Location = new System.Drawing.Point(141, 87);
             this.btnViewTimetable.Name = "btnViewTimetable";
-            this.btnViewTimetable.Size = new System.Drawing.Size(110, 23);
+            this.btnViewTimetable.Size = new System.Drawing.Size(147, 45);
             this.btnViewTimetable.TabIndex = 0;
             this.btnViewTimetable.Text = "ViewTimetable";
-            this.btnViewTimetable.UseVisualStyleBackColor = true;
+            this.btnViewTimetable.UseVisualStyleBackColor = false;
             this.btnViewTimetable.Click += new System.EventHandler(this.btnViewTimetable_Click);
             // 
             // btnManageMarks
             // 
-            this.btnManageMarks.Location = new System.Drawing.Point(141, 184);
+            this.btnManageMarks.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnManageMarks.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManageMarks.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnManageMarks.Location = new System.Drawing.Point(141, 138);
             this.btnManageMarks.Name = "btnManageMarks";
-            this.btnManageMarks.Size = new System.Drawing.Size(110, 23);
+            this.btnManageMarks.Size = new System.Drawing.Size(147, 60);
             this.btnManageMarks.TabIndex = 1;
             this.btnManageMarks.Text = "ManageMarks";
-            this.btnManageMarks.UseVisualStyleBackColor = true;
+            this.btnManageMarks.UseVisualStyleBackColor = false;
             this.btnManageMarks.Click += new System.EventHandler(this.btnManageMarks_Click);
             // 
             // btnManageStudents
             // 
-            this.btnManageStudents.Location = new System.Drawing.Point(141, 249);
+            this.btnManageStudents.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnManageStudents.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManageStudents.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnManageStudents.Location = new System.Drawing.Point(141, 204);
             this.btnManageStudents.Name = "btnManageStudents";
-            this.btnManageStudents.Size = new System.Drawing.Size(110, 54);
+            this.btnManageStudents.Size = new System.Drawing.Size(147, 54);
             this.btnManageStudents.TabIndex = 2;
             this.btnManageStudents.Text = "Manage Students";
-            this.btnManageStudents.UseVisualStyleBackColor = true;
+            this.btnManageStudents.UseVisualStyleBackColor = false;
             this.btnManageStudents.Click += new System.EventHandler(this.btnManageStudents_Click);
             // 
             // btnManageCourses
             // 
-            this.btnManageCourses.Location = new System.Drawing.Point(141, 329);
+            this.btnManageCourses.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnManageCourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManageCourses.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnManageCourses.Location = new System.Drawing.Point(141, 274);
             this.btnManageCourses.Name = "btnManageCourses";
-            this.btnManageCourses.Size = new System.Drawing.Size(75, 49);
+            this.btnManageCourses.Size = new System.Drawing.Size(147, 66);
             this.btnManageCourses.TabIndex = 3;
             this.btnManageCourses.Text = " Manage Courses";
-            this.btnManageCourses.UseVisualStyleBackColor = true;
+            this.btnManageCourses.UseVisualStyleBackColor = false;
             // 
             // lblWelcome
             // 
             this.lblWelcome.AutoSize = true;
+            this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.Location = new System.Drawing.Point(242, 37);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(44, 16);
+            this.lblWelcome.Size = new System.Drawing.Size(139, 32);
             this.lblWelcome.TabIndex = 4;
-            this.lblWelcome.Text = "label1";
+            this.lblWelcome.Text = "Welcome";
             // 
             // btnManageExams
             // 
+            this.btnManageExams.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnManageExams.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManageExams.ForeColor = System.Drawing.SystemColors.Control;
             this.btnManageExams.Location = new System.Drawing.Point(390, 109);
             this.btnManageExams.Name = "btnManageExams";
-            this.btnManageExams.Size = new System.Drawing.Size(75, 50);
+            this.btnManageExams.Size = new System.Drawing.Size(131, 50);
             this.btnManageExams.TabIndex = 5;
             this.btnManageExams.Text = " Manage Exams";
-            this.btnManageExams.UseVisualStyleBackColor = true;
+            this.btnManageExams.UseVisualStyleBackColor = false;
             // 
             // btnViewMarks
             // 
-            this.btnViewMarks.Location = new System.Drawing.Point(390, 184);
+            this.btnViewMarks.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnViewMarks.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewMarks.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnViewMarks.Location = new System.Drawing.Point(390, 188);
             this.btnViewMarks.Name = "btnViewMarks";
-            this.btnViewMarks.Size = new System.Drawing.Size(75, 42);
+            this.btnViewMarks.Size = new System.Drawing.Size(131, 42);
             this.btnViewMarks.TabIndex = 6;
             this.btnViewMarks.Text = " View Marks";
-            this.btnViewMarks.UseVisualStyleBackColor = true;
+            this.btnViewMarks.UseVisualStyleBackColor = false;
             this.btnViewMarks.Click += new System.EventHandler(this.btnViewMarks_Click);
             // 
             // btnLogout
             // 
+            this.btnLogout.BackColor = System.Drawing.Color.Red;
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.SystemColors.Control;
             this.btnLogout.Location = new System.Drawing.Point(617, 323);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(75, 60);
+            this.btnLogout.Size = new System.Drawing.Size(140, 60);
             this.btnLogout.TabIndex = 7;
             this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // LecturerDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnViewMarks);

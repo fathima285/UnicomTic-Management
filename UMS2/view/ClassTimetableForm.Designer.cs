@@ -88,22 +88,26 @@
             // 
             // btnadd
             // 
+            this.btnadd.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnadd.ForeColor = System.Drawing.SystemColors.Control;
             this.btnadd.Location = new System.Drawing.Point(240, 294);
             this.btnadd.Name = "btnadd";
-            this.btnadd.Size = new System.Drawing.Size(75, 23);
+            this.btnadd.Size = new System.Drawing.Size(75, 48);
             this.btnadd.TabIndex = 5;
             this.btnadd.Text = "Add";
-            this.btnadd.UseVisualStyleBackColor = true;
+            this.btnadd.UseVisualStyleBackColor = false;
             this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
             // btndelete
             // 
-            this.btndelete.Location = new System.Drawing.Point(400, 294);
+            this.btndelete.BackColor = System.Drawing.Color.Red;
+            this.btndelete.ForeColor = System.Drawing.SystemColors.Control;
+            this.btndelete.Location = new System.Drawing.Point(395, 294);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(75, 23);
+            this.btndelete.Size = new System.Drawing.Size(75, 48);
             this.btndelete.TabIndex = 6;
             this.btndelete.Text = "Delete";
-            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.UseVisualStyleBackColor = false;
             this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // dtdate
@@ -126,6 +130,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(137, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 16);
@@ -135,6 +140,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(137, 126);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 16);
@@ -144,6 +150,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.Control;
             this.label4.Location = new System.Drawing.Point(140, 158);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 16);
@@ -153,6 +160,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.Control;
             this.label5.Location = new System.Drawing.Point(140, 193);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 16);
@@ -162,6 +170,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.Control;
             this.label6.Location = new System.Drawing.Point(119, 236);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 16);
@@ -172,6 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(937, 821);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);

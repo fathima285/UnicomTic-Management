@@ -43,66 +43,78 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(323, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 16);
+            this.label1.Size = new System.Drawing.Size(301, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Subject Management";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(101, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 16);
+            this.label2.Size = new System.Drawing.Size(126, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Subject Name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(101, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 16);
+            this.label3.Size = new System.Drawing.Size(123, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Course Name";
             // 
             // btnadd
             // 
-            this.btnadd.Location = new System.Drawing.Point(644, 80);
+            this.btnadd.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnadd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnadd.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnadd.Location = new System.Drawing.Point(644, 100);
             this.btnadd.Name = "btnadd";
-            this.btnadd.Size = new System.Drawing.Size(75, 23);
+            this.btnadd.Size = new System.Drawing.Size(75, 51);
             this.btnadd.TabIndex = 4;
             this.btnadd.Text = "Add";
-            this.btnadd.UseVisualStyleBackColor = true;
+            this.btnadd.UseVisualStyleBackColor = false;
             this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
             // btnedit
             // 
-            this.btnedit.Location = new System.Drawing.Point(644, 124);
+            this.btnedit.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnedit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnedit.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnedit.Location = new System.Drawing.Point(644, 162);
             this.btnedit.Name = "btnedit";
-            this.btnedit.Size = new System.Drawing.Size(75, 23);
+            this.btnedit.Size = new System.Drawing.Size(75, 47);
             this.btnedit.TabIndex = 5;
             this.btnedit.Text = "Edit";
-            this.btnedit.UseVisualStyleBackColor = true;
+            this.btnedit.UseVisualStyleBackColor = false;
             this.btnedit.Click += new System.EventHandler(this.btnedit_Click);
             // 
             // btndelete
             // 
-            this.btndelete.Location = new System.Drawing.Point(644, 154);
+            this.btndelete.BackColor = System.Drawing.Color.Red;
+            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.ForeColor = System.Drawing.SystemColors.Control;
+            this.btndelete.Location = new System.Drawing.Point(644, 226);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(75, 23);
+            this.btndelete.Size = new System.Drawing.Size(75, 45);
             this.btndelete.TabIndex = 6;
             this.btndelete.Text = "Delete";
-            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.UseVisualStyleBackColor = false;
             this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // cobcourse
             // 
             this.cobcourse.FormattingEnabled = true;
-            this.cobcourse.Location = new System.Drawing.Point(278, 123);
+            this.cobcourse.Location = new System.Drawing.Point(278, 127);
             this.cobcourse.Name = "cobcourse";
-            this.cobcourse.Size = new System.Drawing.Size(121, 24);
+            this.cobcourse.Size = new System.Drawing.Size(164, 24);
             this.cobcourse.TabIndex = 8;
             this.cobcourse.SelectedIndexChanged += new System.EventHandler(this.cobcourse_SelectedIndexChanged);
             // 
@@ -121,7 +133,7 @@
             // 
             this.txtsubname.Location = new System.Drawing.Point(278, 80);
             this.txtsubname.Name = "txtsubname";
-            this.txtsubname.Size = new System.Drawing.Size(100, 22);
+            this.txtsubname.Size = new System.Drawing.Size(246, 22);
             this.txtsubname.TabIndex = 11;
             this.txtsubname.TextChanged += new System.EventHandler(this.txtsubname_TextChanged);
             // 
@@ -129,6 +141,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtsubname);
             this.Controls.Add(this.dgvsubject);

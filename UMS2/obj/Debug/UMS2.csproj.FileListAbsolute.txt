@@ -63,13 +63,11 @@ C:\Users\sathi\OneDrive\Desktop\new\UMS2\obj\Debug\UMS2.csproj.CoreCompileInputs
 C:\Users\sathi\OneDrive\Desktop\new\UMS2\obj\Debug\UMS2.csproj.Up2Date
 C:\Users\sathi\OneDrive\Desktop\new\UMS2\obj\Debug\UMS2.exe
 C:\Users\sathi\OneDrive\Desktop\new\UMS2\obj\Debug\UMS2.pdb
-C:\Users\sathi\OneDrive\Desktop\project3\UMS2\bin\Debug\UMS2.exe.config
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\bin\Debug\UMS2.exe
-C:\Users\sathi\OneDrive\Desktop\project3\UMS2\bin\Debug\UMS2.pdb
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\bin\Debug\System.Data.SQLite.dll
+C:\Users\sathi\OneDrive\Desktop\project3\UMS2\bin\Debug\UMS2.exe.config
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\bin\Debug\System.Data.SQLite.xml
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.csproj.AssemblyReference.cache
-C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.exe.config
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.Form1.resources
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.Properties.Resources.resources
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.AdminDashboardForm.resources
@@ -78,8 +76,12 @@ C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.AttendenceForm
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.ClassTimetableForm.resources
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.CourseForm.resources
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.ExamForm.resources
+C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.LecturerDashboard.resources
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.LecturerForm.resources
+C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.LoginForm.resources
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.MarkForm.resources
+C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.RegisterForm.resources
+C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.StudentDashboard.resources
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.StudentForm.resources
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.SubjectForm.resources
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.csproj.GenerateResource.cache
@@ -87,7 +89,5 @@ C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.csproj.CoreCompileI
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.csproj.Up2Date
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.exe
 C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.pdb
-C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.LecturerDashboard.resources
-C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.LoginForm.resources
-C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.RegisterForm.resources
-C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.view.StudentDashboard.resources
+C:\Users\sathi\OneDrive\Desktop\project3\UMS2\bin\Debug\UMS2.pdb
+C:\Users\sathi\OneDrive\Desktop\project3\UMS2\obj\Debug\UMS2.exe.config

@@ -43,22 +43,25 @@
             // 
             // btndelete
             // 
-            this.btndelete.Location = new System.Drawing.Point(547, 160);
+            this.btndelete.BackColor = System.Drawing.Color.Red;
+            this.btndelete.ForeColor = System.Drawing.SystemColors.Control;
+            this.btndelete.Location = new System.Drawing.Point(547, 162);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(75, 23);
+            this.btndelete.Size = new System.Drawing.Size(75, 37);
             this.btndelete.TabIndex = 19;
             this.btndelete.Text = "Delete";
-            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.UseVisualStyleBackColor = false;
             this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // btnadd
             // 
+            this.btnadd.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnadd.Location = new System.Drawing.Point(547, 100);
             this.btnadd.Name = "btnadd";
-            this.btnadd.Size = new System.Drawing.Size(75, 23);
+            this.btnadd.Size = new System.Drawing.Size(75, 32);
             this.btnadd.TabIndex = 18;
             this.btnadd.Text = "Add";
-            this.btnadd.UseVisualStyleBackColor = true;
+            this.btnadd.UseVisualStyleBackColor = false;
             this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
             // dgvattendence
@@ -105,6 +108,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.Control;
             this.label4.Location = new System.Drawing.Point(185, 183);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 16);
@@ -114,6 +118,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(182, 148);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 16);
@@ -123,6 +128,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(179, 108);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 16);
@@ -132,9 +138,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(322, 52);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(237, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 16);
+            this.label1.Size = new System.Drawing.Size(353, 32);
             this.label1.TabIndex = 10;
             this.label1.Text = "Attendence Management";
             // 
@@ -142,6 +149,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.btnadd);
